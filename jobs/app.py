@@ -4,4 +4,3 @@ app = Flask(__name__)
 @app.route('/jobs')
 def index():
     return render_template('index.html')
-    app.run()
